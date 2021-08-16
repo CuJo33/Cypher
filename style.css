@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cypherArea {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 500px;
+  width: 800px;
+  background-color: rgb(199, 194, 194);
+  border-radius: 30px;
+  border-color: rgb(95, 95, 95);
+}
+
+#userMessage,
+#output {
+  border-radius: 12px;
+}
+
+#decode {
+  margin-left: 5px;
+}
+
+#key {
+  margin-left: 5px;
+}
